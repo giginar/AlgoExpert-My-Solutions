@@ -10,7 +10,7 @@ public class DepthFirstSearch {
     //Implement the depthFirstSearch method on the node class, which takes in an empty array,
     //traverses the tree using the Depth-First Search approach(left to right),
     //stores all off the nodes' names in the input array and returns it.
-    
+
     static class Node {
         String name;
         List<Node> children = new ArrayList<>();
