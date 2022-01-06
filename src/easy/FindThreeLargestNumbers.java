@@ -1,5 +1,7 @@
 package easy;
 
+import java.util.Arrays;
+
 public class FindThreeLargestNumbers {
     public static int[] findThreeLargestNumbers(int[] array) {
         //Write a function that takes in an array of at least three integers and,
@@ -32,5 +34,4 @@ public class FindThreeLargestNumbers {
         Arrays.sort(result);
         return result;
     }
-}
 }
